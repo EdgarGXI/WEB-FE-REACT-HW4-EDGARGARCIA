@@ -1,3 +1,62 @@
+/* Fuente Western */
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+body {
+  @apply font-sans;
+  font-family: 'Rye', cursive; /* Cambia el estilo de la fuente a estilo Western */
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Header */
+.header {
+  @apply bg-marlboroRed text-white flex items-center justify-between py-4 px-6;
+}
+
+/* Placeholder para el logo */
+.header-logo {
+  width: auto;
+  height: auto;
+  display: inline-block;
+}
+
+/* Sección de Diagnóstico */
+.section-title {
+  @apply text-3xl font-bold my-4;
+}
+
+.section-container {
+  @apply flex gap-6 justify-center my-8;
+}
+
+/* Cajas de diagnóstico */
+.diagnosis-box {
+  @apply border border-black p-4 rounded-lg;
+}
+
+/* Tabla de objetivos estratégicos */
+.table-container {
+  @apply mt-10;
+}
+
+.table {
+  @apply w-full text-left border-collapse;
+}
+
+.table th {
+  @apply bg-black text-white p-2;
+}
+
+.table td {
+  @apply border border-black p-2;
+}
+
+.footer {
+  @apply bg-black text-white p-4 text-center;
+}
