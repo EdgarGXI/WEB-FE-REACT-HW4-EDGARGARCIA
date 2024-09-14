@@ -6,7 +6,7 @@ const Header = () => {
         {/* Placeholder para el logo */}
         <div className="header-logo">
           <img
-          src="/WEB-FE-REACT-HW4-EDGARGARCIA/public/figs/marlboro-cowboy-seeklogo.svg"
+          src="/WEB-FE-REACT-HW4-EDGARGARCIA/figs/marlboro-cowboy-seeklogo.svg"
           alt="Logo"
           className="w-32 h-auto object-contain"
           />
